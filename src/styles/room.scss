@@ -13,6 +13,16 @@
             > img {
                 max-height: 45px;
             }
+
+            > div {
+                display: flex;
+                // gap, dá espaçamento entre elementos HTML, como margin, porém, apenas quando há 2 elementos
+                gap: 16px;
+
+                button {
+                    height: 40px;
+                }
+            }
         }
     }
 
